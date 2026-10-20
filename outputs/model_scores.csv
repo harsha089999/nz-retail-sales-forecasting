@@ -1,16 +1,16 @@
 industry,model,test_mape,chosen
-Clothing and footwear,seasonal_naive,2.79,False
-Clothing and footwear,holt_winters,0.45,False
-Clothing and footwear,sarima,0.42,True
-Food and beverage services,seasonal_naive,3.49,False
-Food and beverage services,holt_winters,1.51,False
-Food and beverage services,sarima,1.5,True
-Fuel retailing,seasonal_naive,3.84,False
-Fuel retailing,holt_winters,1.23,False
-Fuel retailing,sarima,1.18,True
-Hardware and garden,seasonal_naive,3.18,False
-Hardware and garden,holt_winters,0.74,True
-Hardware and garden,sarima,0.91,False
-Supermarket and grocery,seasonal_naive,3.44,False
-Supermarket and grocery,holt_winters,1.29,True
-Supermarket and grocery,sarima,1.31,False
+"Cafes, restaurants and takeaway food services",seasonal_naive,5.05,False
+"Cafes, restaurants and takeaway food services",holt_winters,3.58,False
+"Cafes, restaurants and takeaway food services",sarima,3.38,True
+Clothing retailing,seasonal_naive,3.71,True
+Clothing retailing,holt_winters,4.8,False
+Clothing retailing,sarima,5.09,False
+Department stores,seasonal_naive,2.96,False
+Department stores,holt_winters,2.38,False
+Department stores,sarima,2.06,True
+"Hardware, building and garden supplies retailing",seasonal_naive,3.11,True
+"Hardware, building and garden supplies retailing",holt_winters,7.54,False
+"Hardware, building and garden supplies retailing",sarima,7.69,False
+Supermarket and grocery stores,seasonal_naive,4.5,False
+Supermarket and grocery stores,holt_winters,1.43,True
+Supermarket and grocery stores,sarima,2.05,False
