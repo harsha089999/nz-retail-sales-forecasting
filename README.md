@@ -1,6 +1,6 @@
 # Retail Sales Forecasting (ABS Retail Trade)
 
-[![Run project](https://github.com/harsha089999/retail-sales-forecasting/actions/workflows/run.yml/badge.svg)](https://github.com/harsha089999/retail-sales-forecasting/actions/workflows/run.yml)
+[![Run project](https://github.com/harsha089999/nz-retail-sales-forecasting/actions/workflows/run.yml/badge.svg)](https://github.com/harsha089999/nz-retail-sales-forecasting/actions/workflows/run.yml)
 
 **Monthly turnover forecasts for five Australian retail industries, three competing models per industry, error bands, and a Power BI-ready export.**
 
@@ -37,8 +37,8 @@ Real monthly retail turnover by state and industry from the ABS, April 1982 to D
 ## Run it
 
 ```bash
-git clone https://github.com/harsha089999/retail-sales-forecasting
-cd retail-sales-forecasting
+git clone https://github.com/harsha089999/nz-retail-sales-forecasting
+cd nz-retail-sales-forecasting
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python src/main.py
@@ -105,7 +105,7 @@ Time series forecasting, model selection by backtest, baselines, communicating u
 ## Project structure
 
 ```text
-retail-sales-forecasting/
+nz-retail-sales-forecasting/
 ├── src/main.py                 # the whole pipeline
 ├── data/                       # real source data (gzipped) + data/README.md with source and licence
 ├── outputs/                    # files from the run shown above
